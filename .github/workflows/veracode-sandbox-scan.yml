@@ -51,7 +51,6 @@ jobs:
         with:
           appname: ${{ github.event.client_payload.user_config.profile_name }}
           createprofile: true
-          teams: 'US-SureTreat'
           policy: ${{ github.event.client_payload.policy_name }}
           version: '${{ github.run_id }}'
           filepath: ./veracode_artifact_directory/
